@@ -39,7 +39,7 @@ pip install rise
 jupyter-nbextension install rise --py --sys-prefix
 jupyter nbextension enable rise --py --sys-prefix
 
-# matplotlob
+# matplotlib
 pip install matplotlib
 
 # biopython
