@@ -1,4 +1,4 @@
-# An introduction to solving biological problems with Python - course materials
+# Python functions and modules: best practices - course materials
 
 Materials for the course run by the Graduate School of Life Sciences, University of Cambridge.
 
@@ -38,6 +38,9 @@ pip install jupyter
 pip install rise
 jupyter-nbextension install rise --py --sys-prefix
 jupyter nbextension enable rise --py --sys-prefix
+
+# matplotlob
+pip install matplotlib
 
 # biopython
 pip install biopython
