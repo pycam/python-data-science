@@ -1,6 +1,4 @@
-from ex2_2_2 import gc_content
-from ex2_2_3 import extract_sub_sequences
-
+from ex3_3 import gc_content, extract_sub_sequences
 
 def gc_content_along_the_chain(dna_sequence, window_size):
     """Returns a list of GC along the DNA sequence

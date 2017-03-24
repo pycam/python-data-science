@@ -1,26 +1,27 @@
 import os.path
+import csv
 
 # Read a tab delimited file which has 4 columns: gene, chromosome, start and end coordinates.
 # Check if the file exists, then compute the length of each gene and store
 # its name and corresponding length into a dictionary.
-# Write the results into a new tab separated file.
+# Write the results into a new tab separated file and make use of the csv module.
 
 gene_file = os.path.join('data', 'genes.txt')
-output_file = "gene_lengths.tsv"
+output_file = "gene_lengths_csv_module.txt"
 
 if os.path.exists(gene_file):
     results = []
     with open(gene_file) as f:
-        header = f.readline()
-        for line in f:
-            gene, chrom, start, end = line.strip().split("\t")
-            row = {'gene': gene, 'length': int(end) - int(start) + 1}
-            results.append(row)
+        reader = csv.DictReader(f, delimiter='\t')
+        for row in reader:
+            record = {'gene': row['gene'], 'length': int(row['end']) - int(row['start']) + 1}
+            results.append(record)
     print(results)
     with open(output_file, "w") as out:
-        out.write('gene' + "\t" + 'length' + "\n")  # write header
+        writer = csv.DictWriter(out, results[0].keys(), delimiter='\t')
+        writer.writeheader()  # write header
         for record in results:
-            out.write(record['gene'] + "\t" + str(record['length']) + "\n")
+            writer.writerow(record)
 else:
     print(gene_file, 'does not exists!')
 

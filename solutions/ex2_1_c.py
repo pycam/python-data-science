@@ -13,4 +13,4 @@ def molecular_weight(sequence):
     return total_weight
 
 weight = molecular_weight("AAGGACTGTCNCGTNNCGTAGGATNATAGNN")
-print("Moelacular weight:", weight, "g/mol")
+print("Molecular weight:", weight, "g/mol")
