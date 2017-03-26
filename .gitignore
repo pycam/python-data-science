@@ -112,3 +112,9 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+gene_lengths_csv_module.txt
+
+gene_lengths.txt
+
+long_sequences.fa

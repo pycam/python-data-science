@@ -8,7 +8,8 @@ def gc_content(sequence):
     return 100 * (gc / len(sequence))
 
 
-#print('GC%', gc_content('ATGGTGCATCTGACTCCTGAGGAGAAGTCTGCCGTTACTGCCCTGTGGGGCAAGGTG'))
+#dna = 'ATGGTGCATCTGACTCCTGAGGAGAAGTCTGCCGTTACTGCCCTGTGGGGCAAGGTG'
+#print('GC%', gc_content(dna))
 
 def extract_sub_sequences(sequence, window_size):
     """Extract a list of overlaping sub-sequences for a given window size
