@@ -13,8 +13,8 @@ if os.path.exists(gene_file):
     results = []
     with open(gene_file) as f:
         reader = csv.DictReader(f, delimiter='\t')
-        for row in reader:
-            record = {'gene': row['gene'], 'length': int(row['end']) - int(row['start']) + 1}
+        for record in reader:
+            record['length'] = int(record['end']) - int(record['start']) + 1
             results.append(record)
     print(results)
     with open(output_file, "w") as out:
