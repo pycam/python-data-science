@@ -1,4 +1,4 @@
-# Python functions and modules: best practices - course materials
+# Working with Python: functions and modules - course materials
 
 Materials for the course run by the Graduate School of Life Sciences, University of Cambridge.
 
