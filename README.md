@@ -11,13 +11,13 @@ If you wish to run the course on your personal computer, here are the steps to f
 ## Clone this github project
 
 ```bash
-git clone https://github.com/pycam/python-intro.git
-cd python-intro
+git clone https://github.com/pycam/python-functions-and-modules.git
+cd python-functions-and-modules
 ```
 
 ## Dependencies
 
-Install Python 3 by downloading the latest version from https://www.python.org/.
+Install Python 3 by downloading the latest version from https://www.python.org/. For Mac OSX, just run `brew install python3`.
 
 Python 2.x is legacy, Python 3.x is the present and future of the language.
 
@@ -70,4 +70,3 @@ You may wish to deactivate the virtual environment, by entering into the termina
 ```
 deactivate
 ```
-.
