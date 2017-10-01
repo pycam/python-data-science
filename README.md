@@ -59,7 +59,7 @@ Go to the directory where you've cloned this repository, activate your virtual e
 Your web browser should automatically open with this url http://localhost:8888/tree where you see the directory tree of the course with all the jupyter notebooks.
 
 ```bash
-cd python-intro
+cd python-functions-and-modules
 source venv/bin/activate
 jupyter notebook
 ```
