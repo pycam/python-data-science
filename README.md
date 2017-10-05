@@ -11,13 +11,13 @@ If you wish to run the course on your personal computer, here are the steps to f
 ## Clone this github project
 
 ```bash
-git clone https://github.com/pycam/python-intro.git
-cd python-intro
+git clone https://github.com/pycam/python-functions-and-modules.git
+cd python-functions-and-modules
 ```
 
 ## Dependencies
 
-Install Python 3 by downloading the latest version from https://www.python.org/.
+Install Python 3 by downloading the latest version from https://www.python.org/. For Mac OSX, just run `brew install python3`.
 
 Python 2.x is legacy, Python 3.x is the present and future of the language.
 
@@ -59,7 +59,7 @@ Go to the directory where you've cloned this repository, activate your virtual e
 Your web browser should automatically open with this url http://localhost:8888/tree where you see the directory tree of the course with all the jupyter notebooks.
 
 ```bash
-cd python-intro
+cd python-functions-and-modules
 source venv/bin/activate
 jupyter notebook
 ```
@@ -70,4 +70,3 @@ You may wish to deactivate the virtual environment, by entering into the termina
 ```
 deactivate
 ```
-.
