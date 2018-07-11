@@ -44,6 +44,9 @@ pip install matplotlib
 
 # biopython
 pip install biopython
+
+# pandas
+pip install pandas
 ```
 
 On mac OSX you may need to run this command to accept the XCode license, before installing biopython:
