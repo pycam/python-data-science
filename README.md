@@ -1,5 +1,7 @@
 # Data science in Python - course materials
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/pycam/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+
 New course based on 'Working with Python: functions and modules' course
 
 Materials for the course run by the Graduate School of Life Sciences, University of Cambridge.
