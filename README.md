@@ -1,4 +1,6 @@
-# Working with Python: functions and modules - course materials
+# Data science in Python - course materials
+
+New course based on 'Working with Python: functions and modules' course
 
 Materials for the course run by the Graduate School of Life Sciences, University of Cambridge.
 
@@ -11,8 +13,8 @@ If you wish to run the course on your personal computer, here are the steps to f
 ## Clone this github project
 
 ```bash
-git clone https://github.com/pycam/python-functions-and-modules.git
-cd python-functions-and-modules
+git clone https://github.com/pycam/python-data-science.git
+cd python-data-science
 ```
 
 ## Dependencies
@@ -62,7 +64,7 @@ Go to the directory where you've cloned this repository, activate your virtual e
 Your web browser should automatically open with this url http://localhost:8888/tree where you see the directory tree of the course with all the jupyter notebooks.
 
 ```bash
-cd python-functions-and-modules
+cd python-data-science
 source venv/bin/activate
 jupyter notebook
 ```
