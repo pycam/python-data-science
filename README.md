@@ -7,6 +7,7 @@ Materials for the course run by the Graduate School of Life Sciences, University
 - Course website: http://pycam.github.io/
 - Booking website: http://www.training.cam.ac.uk/
 
+Please see the [course description (work in progress)](COURSE.md)
 
 If you wish to run the course on your personal computer, here are the steps to follow to get up and running.
 
