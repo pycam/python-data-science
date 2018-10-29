@@ -1,4 +1,4 @@
-id	origin	feature	start	end	a	strand	b	comments
+chrom	source	type	start	end	score	strand	phase	attributes
 1	NCBI	biological_region	50813509	50814248	.	+	.	external_name=C3H-79G23 (end);logic_name=mouse_c3h_clones
 1	NCBI	biological_region	58360717	58361089	.	+	.	external_name=RP23-178M1 (start);logic_name=mouse_rp23_clones
 1	havana	exon	133282117	133282266	.	+	.	Parent=transcript:ENSMUST00000189598;Name=ENSMUSE00000659357;constitutive=0;ensembl_end_phase=0;ensembl_phase=0;exon_id=ENSMUSE00000659357;rank=3;version=1
