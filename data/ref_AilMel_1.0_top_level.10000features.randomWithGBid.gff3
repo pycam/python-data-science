@@ -1,4 +1,4 @@
-	seqid	source	type	start	end	score	strand	phase	attributes	gbID
+	seqid	source	type	start	end	score	strand	phase	attributes	gbid
 0	NW_003217659.1	Gnomon	CDS	1068351	1068487	.	-	0	ID=cds15053;Parent=rna16792;Dbxref=GeneID:100471934,Genbank:XP_019655961.1;Name=XP_019655961.1;gbkey=CDS;gene=FOXN3;product=forkhead box protein N3 isoform X1;protein_id=XP_019655961.1	XP_019655961.1
 1	NW_003218077.1	Gnomon	exon	183346	183444	.	+	.	ID=id313155;Parent=rna25889;Dbxref=GeneID:100466422,Genbank:XM_019804907.1;gbkey=mRNA;gene=SEC31B;product=SEC31 homolog B%2C COPII coat complex component%2C transcript variant X8;transcript_id=XM_019804907.1	XM_019804907.1
 2	NW_003217560.1	Gnomon	exon	1729799	1729834	.	+	.	ID=id169578;Parent=rna13919;Dbxref=GeneID:100474030,Genbank:XM_002918590.3;gbkey=mRNA;gene=SMARCA1;product=SWI/SNF related%2C matrix associated%2C actin dependent regulator of chromatin%2C subfamily a%2C member 1%2C transcript variant X4;transcript_id=XM_002918590.3	XM_002918590.3

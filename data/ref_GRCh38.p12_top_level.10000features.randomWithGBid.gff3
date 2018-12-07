@@ -1,4 +1,4 @@
-	seqid	source	type	start	end	score	strand	phase	attributes	gbID
+	seqid	source	type	start	end	score	strand	phase	attributes	gbid
 0	NC_000023.11	Gnomon	CDS	124061771	124061874	.	+	2	ID=cds112493;Parent=rna159350;Dbxref=GeneID:10735,Genbank:XP_006724791.1,HGNC:HGNC:11355,MIM:300826;Name=XP_006724791.1;gbkey=CDS;gene=STAG2;product=cohesin subunit SA-2 isoform X3;protein_id=XP_006724791.1	XP_006724791.1
 1	NC_000017.11	BestRefSeq	exon	5583687	5584512	.	-	.	ID=id1513246;Parent=rna126322;Dbxref=GeneID:22861,Genbank:NM_033004.3,HGNC:HGNC:14374,MIM:606636;gbkey=mRNA;gene=NLRP1;product=NLR family pyrin domain containing 1%2C transcript variant 1;transcript_id=NM_033004.3	NM_033004.3
 2	NC_000003.12	BestRefSeq	exon	131685875	131685958	.	-	.	ID=id454056;Parent=rna34945;Dbxref=GeneID:131034,Genbank:NM_130808.2,HGNC:HGNC:2317,MIM:604208;gbkey=mRNA;gene=CPNE4;product=copine 4%2C transcript variant 3;transcript_id=NM_130808.2	NM_130808.2

@@ -1,4 +1,4 @@
-	seqid	source	type	start	end	score	strand	phase	attributes	gbID
+	seqid	source	type	start	end	score	strand	phase	attributes	gbid
 0	NC_007117.7	Gnomon	exon	18605644	18606303	.	-	.	ID=id177313;Parent=rna21777;Dbxref=GeneID:100001293,Genbank:XR_661889.3,ZFIN:ZDB-GENE-030131-7377;gbkey=misc_RNA;gene=znf207b;product=zinc finger protein 207%2C b%2C transcript variant X3;transcript_id=XR_661889.3	XR_661889.3
 1	NC_007115.7	tRNAscan-SE	tRNA	62020461	62020533	.	-	.	ID=rna15899;Parent=gene11261;Dbxref=GeneID:108184416;Note=transfer RNA lysine (anticodon CUU);anticodon=(pos:complement(62020498..62020500));gbkey=tRNA;gene=trnak-cuu;inference=COORDINATES: profile:tRNAscan-SE:1.23;product=tRNA-Lys	
 2	NC_007121.7	Gnomon	CDS	17211838	17211911	.	-	0	ID=cds21160;Parent=rna31589;Dbxref=GeneID:562995,Genbank:XP_021334977.1,ZFIN:ZDB-GENE-091204-356;Name=XP_021334977.1;gbkey=CDS;gene=depdc5;product=DEP domain-containing protein 5 isoform X4;protein_id=XP_021334977.1	XP_021334977.1
