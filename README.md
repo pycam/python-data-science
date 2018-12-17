@@ -9,8 +9,6 @@ Materials for the course run by the Graduate School of Life Sciences, University
 - Course website: http://pycam.github.io/
 - Booking website: http://www.training.cam.ac.uk/
 
-Please see the [course description (work in progress)](COURSE.md)
-
 If you wish to run the course on your personal computer, here are the steps to follow to get up and running.
 
 ## Clone this github project
@@ -78,3 +76,13 @@ You may wish to deactivate the virtual environment, by entering into the termina
 ```
 deactivate
 ```
+
+## Resources used
+
+- [Data Carpentry lesson](https://datacarpentry.org/python-ecology-lesson/)
+- [Software Carpentry lesson](http://swcarpentry.github.io/python-novice-gapminder/)
+- [Biopython tutorial on sickle cell](https://krother.gitbooks.io/biopython-tutorial/content/sicklecell.html)
+- [Python tutorial](https://docs.python.org/3/tutorial/index.html)
+- [Pandas tutorials](http://pandas.pydata.org/pandas-docs/stable/tutorials.html)
+- [Matplotlib tutorials](https://matplotlib.org/tutorials/index.html)
+- [Biopython tutorial](http://biopython.org/DIST/docs/tutorial/Tutorial.html)
