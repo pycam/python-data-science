@@ -34,22 +34,14 @@ python3 -m venv venv
 source venv/bin/activate
 # update pip if needed
 pip install --upgrade pip
-# install jupyter
-pip install jupyter
+# install package dependencies
+pip install jupyter pandas matplotlib seaborn biopython
 
 # slideshow extension
 pip install rise
 jupyter-nbextension install rise --py --sys-prefix
 jupyter nbextension enable rise --py --sys-prefix
 
-# matplotlib
-pip install matplotlib
-
-# biopython
-pip install biopython
-
-# pandas
-pip install pandas
 ```
 
 On mac OSX you may need to run this command to accept the XCode license, before installing biopython:
