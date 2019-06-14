@@ -78,3 +78,7 @@ deactivate
 - [Pandas tutorials](http://pandas.pydata.org/pandas-docs/stable/tutorials.html)
 - [Matplotlib tutorials](https://matplotlib.org/tutorials/index.html)
 - [Biopython tutorial](http://biopython.org/DIST/docs/tutorial/Tutorial.html)
+
+## Contributing
+
+- See [contributing.md](contributing.md)
