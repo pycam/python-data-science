@@ -13,6 +13,9 @@ If you wish to run the course on your personal computer, here are the steps to f
 
 ## Clone this github project
 
+For Windows, you have to install GitBash https://gitforwindows.org/ to be able to execute the command. 
+Note down the folder where you have downloaded the git repository.
+
 ```bash
 git clone https://github.com/pycam/python-data-science.git
 cd python-data-science
@@ -20,6 +23,7 @@ cd python-data-science
 
 ## Dependencies
 
+# Mac OSX
 Install Python 3 by downloading the latest version from https://www.python.org/. For Mac OSX, just run `brew install python3`.
 
 Python 2.x is legacy, Python 3.x is the present and future of the language.
@@ -50,8 +54,25 @@ On mac OSX you may need to run this command to accept the XCode license, before 
 sudo xcodebuild -license
 ```
 
+# Windows
+Install Python 3 by downloading the latest version of Anaconda https://www.anaconda.com/distribution/. Take the graphical installer or the command line installer.
+
+Python 2.x is legacy, Python 3.x is the present and future of the language.
+
+After installation, open an Anaconda prompt which is Windows command line configured for Anaconda.
+
+```bash
+(base) C:\Users\your_username>conda create --name python-course
+(base) C:\Users\your_username>conda activate python-course
+(python-course) C:\Users\your_username>conda install pandas matplotlib seaborn biopython
+(python-course) C:\Users\your_username> conda install jupyter rise
+(python-course) C:\Users\your_username>jupyter-nbextension install rise --py --sys-prefix
+(python-course) C:\Users\your_usernamejupyter nbextension enable rise --py --sys-prefix
+```
+
 ## Usage
 
+# Mac OSX
 Go to the directory where you've cloned this repository, activate your virtual environment and run jupyter.
 
 Your web browser should automatically open with this url http://localhost:8888/tree where you see the directory tree of the course with all the jupyter notebooks.
@@ -67,6 +88,26 @@ To shutdown jupyter, type ctrl-C into the terminal you've ran `jupyter notebook`
 You may wish to deactivate the virtual environment, by entering into the terminal:
 ```
 deactivate
+```
+
+# Windows
+Launch the Anaconda prompt.
+
+Go to the directory where you've cloned this repository (here: `C:\Users\your_username\python-data-science`), activate your Anaconda environment and run jupyter.
+
+Your web browser should automatically open with this url http://localhost:8888/tree where you see the directory tree of the course with all the jupyter notebooks.
+
+```bash
+(base) C:\Users\your_username>cd python-data-science
+(base) C:\Users\your_username\python-data-science>conda activate python-course
+(python-course) C:\Users\your_username\python-data-science>jupyter notebook
+```
+
+To shutdown jupyter, type ctrl-C into the terminal you've ran `jupyter notebook`, answer `y` and press `enter`.
+
+You may wish to deactivate the virtual environment, by entering into the terminal:
+```
+conda deactivate
 ```
 
 ## Resources used
