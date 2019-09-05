@@ -23,7 +23,7 @@ cd python-data-science
 
 ## Dependencies
 
-# Mac OSX
+### Mac OSX
 Install Python 3 by downloading the latest version from https://www.python.org/. For Mac OSX, just run `brew install python3`.
 
 Python 2.x is legacy, Python 3.x is the present and future of the language.
@@ -54,7 +54,7 @@ On mac OSX you may need to run this command to accept the XCode license, before 
 sudo xcodebuild -license
 ```
 
-# Windows
+### Windows
 Install Python 3 by downloading the latest version of Anaconda https://www.anaconda.com/distribution/. Take the graphical installer or the command line installer.
 
 Python 2.x is legacy, Python 3.x is the present and future of the language.
@@ -72,7 +72,7 @@ After installation, open an Anaconda prompt which is Windows command line config
 
 ## Usage
 
-# Mac OSX
+### Mac OSX
 Go to the directory where you've cloned this repository, activate your virtual environment and run jupyter.
 
 Your web browser should automatically open with this url http://localhost:8888/tree where you see the directory tree of the course with all the jupyter notebooks.
@@ -90,7 +90,7 @@ You may wish to deactivate the virtual environment, by entering into the termina
 deactivate
 ```
 
-# Windows
+### Windows
 Launch the Anaconda prompt.
 
 Go to the directory where you've cloned this repository (here: `C:\Users\your_username\python-data-science`), activate your Anaconda environment and run jupyter.
